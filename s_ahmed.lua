@@ -1,7 +1,7 @@
 time_interval = 1200000
 
 function started(wedf)
-   apiKey = 'GviH7nDAs9XpDSFJs0I6sV5lFTDrriaRqbIR'
+   apiKey = 'Token'
     baseCurrency = 'USD'
     link[8] = 'https://currencyapi.net/api/v1/rates?key='..apiKey..'&base='..baseCurrency..''
 	print(link[8])
