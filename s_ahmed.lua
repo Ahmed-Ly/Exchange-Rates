@@ -1,11 +1,10 @@
 time_interval = 1200000
-
+link = {}
 function started(wedf)
    apiKey = 'Token'
     baseCurrency = 'USD'
-    link[8] = 'https://currencyapi.net/api/v1/rates?key='..apiKey..'&base='..baseCurrency..''
-	print(link[8])
-    fetchRemote (link[8], dataa, "", false,wedf)
+    link[1] = 'https://currencyapi.net/api/v1/rates?key='..apiKey..'&base='..baseCurrency..''
+    fetchRemote (link[1], dataa, "", false,wedf)
 end
 
 
